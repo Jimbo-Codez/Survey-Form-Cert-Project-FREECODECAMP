@@ -1,0 +1,39 @@
+<!doctype HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+     <title>Jimbo Code's Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Jimbo Code's Survey Form</h1>
+    <p id="description">Help me find out what's the haps nah' I mean?</p>
+    <form id="survey-form">
+      <fieldset>
+        
+      <label id="name-label"> Input Your Name <input required placeholder="Name"id="name" type="text"></label>
+       <label id="email-label"> Input your email <input placeholder="email" required id="email" type="email"></label>
+       <label id="number-label"> Input your age <input placeholder= "num" type="number" id="number" min="0" max="100"></label>
+       </fieldset>
+       <fieldset>
+       <select id="dropdown">
+         <option>Choose One</option>
+          <option>Tits</option>
+           <option>Ass</option>
+           </select>
+           <label><input value="SR" name="radio-button" type="radio">Summoners Rift</label>
+            <label><input value="HA" name="radio-button" type="radio">Howling Abyss</label>
+            <label>  <input type="checkbox" value="Jimbo">  Jimbo</label>
+            <label>  <input type="checkbox" value="Danny"> Danny </label>
+            <label>  <input type="checkbox" value="Tyler"> Tyler </label>
+            <label> <input type="checkbox" value="Dylan"> Dylan  </label>
+             </fieldset>
+            <fieldset>
+            <label>Let us know what you think
+              <textarea col="50" rows="4"></textarea>
+            </label>
+            </fieldset>
+           <input id="submit" type="submit">
+      </form>
+  </body>
+  </html>
